@@ -4,7 +4,7 @@ const app=express()
 
 
 
-app.get('/',(req,res)=>{
+app.get('/api',(req,res)=>{
     res.status(200).json({message:'api done'})
 })
 const port =8000
